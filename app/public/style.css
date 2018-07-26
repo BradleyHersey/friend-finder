@@ -1,0 +1,35 @@
+body {
+    background-image: url("https://www.cdn.tv2.no/images?imageId=7165242&x=0&y=15.95041322314&cropw=95.238095238095&croph=55.04132231405&width=940&height=666&compression=75");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.form-control {
+    background-color: transparent;
+}
+
+h1,
+h2,
+h3,
+h4,
+label,
+input {
+    color: white;
+}
+
+.btn {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    background: rgb(145, 92, 182);
+    padding: 15px 40px;
+    border-radius: 4px;
+    font-weight: normal;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+}
+
+#glow-button:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
